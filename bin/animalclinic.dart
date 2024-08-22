@@ -1,5 +1,5 @@
-import 'package:animalclinic/animalclinic.dart' as animalclinic;
+import 'package:animalclinic/self_service.dart' as system;
 
-void main(List<String> arguments) {
-  print('Hello world: ${animalclinic.calculate()}!');
+void main() {
+  system.selfService();
 }
