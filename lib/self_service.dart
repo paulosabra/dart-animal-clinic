@@ -1,11 +1,10 @@
+import 'dart:io';
+
 void selfService() {
-  String address =
-      'Rua Iabiçu-Guaçu, 2024 - Vila Rio Branco, São Paulo - SP, 03875-010';
-  String phone = '(11) 92820-6866';
+  print('Por Favor, digite seu nome:');
+  String? name = stdin.readLineSync();
 
+  print('Prezado(a), $name. Seja muito bem-vindo(a) à nossa loja.');
   print(
-      'Sejam bem-vindos a loja Cuidapet! Em breve teremos um sistema de autoatendimento\n');
-
-  print(address);
-  print(phone);
+      'Oferecemos em nossa loja produtos e serviços para seu PET. Para venda de produtos, procure o colaborador Junior e, para serviços como banho ou tosa, procure o colaborador Neto. Obrigado e esperamos que tenha uma ótima experiência em nossa loja.');
 }
